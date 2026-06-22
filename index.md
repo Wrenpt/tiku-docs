@@ -1,6 +1,6 @@
 <script>
 async function loadTiku() {
-  const res = await fetch("https://cdn.jsdelivr.net/gh/Wrenpt/README/main/tiku-config.json");
+  const res = await fetch("https://cdn.jsdelivr.net/gh/Wrenpt/tiku-docs/main/tiku-config.json");
   const tikuList = await res.json();
   console.log("加载成功的题库源：", tikuList);
 }
